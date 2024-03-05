@@ -75,8 +75,8 @@ const filterDataByPremium = (data, threshold) => {
 let transporter = nodemailer.createTransport({
   service: 'gmail', // for example, Gmail. You can use other services as well
   auth: {
-    user: 'unusualoptionsalert@gmail.com', // your email address
-    pass: 'nvpb ajfo bmcz dqwa ' // your email password
+    user: 'REPLACE WITH YOUR EMAIL', // your email address
+    pass: 'REPLACE WITH YOUR PASSWORD' // your email password
   }
 });
 
